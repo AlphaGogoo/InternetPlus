@@ -1,0 +1,4 @@
+/* pages/aboutMe/myinfo/myinfo.wxss */
+page{
+  background-color: #EDEDED;
+}

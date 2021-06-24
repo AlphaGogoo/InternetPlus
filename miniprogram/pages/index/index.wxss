@@ -1,0 +1,130 @@
+page{
+  background-color: #EDEDED;
+}
+swiper {
+  padding-top: 0px;
+}
+
+.le-img {
+  width: 100%;
+  display: block;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.le-img.le-active {
+  transform: scale(1);
+}
+
+.script_and_history{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex:1
+}
+.script{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  border-radius: 40rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}
+.history{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  border-radius: 40rpx;
+  margin-right: 60rpx;
+  margin-left: 60rpx;
+}
+.script_img{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.laba{
+  margin-right: 10rpx;
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  height: 40rpx;
+  width: 40rpx;
+ }
+
+/* 公告 */
+.board {
+  margin-top: 20rpx;
+  height: 6vh;
+  width: 100%;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: cornsilk;
+}
+
+.board-title {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.board text {
+  padding-left: 10rpx;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.board-content {
+  font-size: 30rpx;
+  flex: 1;
+  height: 100%;
+  line-height: 100%;
+}
+.recommend{
+  margin-top: 20rpx;
+}
+.recomtest{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.recomlink{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background-color: whitesmoke;
+}
+.recomimage{
+  margin-top: 20rpx;
+  width: 100%;
+}
+.recimage{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.scriptinfo{
+  display: flex;
+  flex-direction: column;
+}
+.tags{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.tag{
+  width: fit-content;
+  background-color: #EDEDED;
+  margin-right: 15rpx;
+}

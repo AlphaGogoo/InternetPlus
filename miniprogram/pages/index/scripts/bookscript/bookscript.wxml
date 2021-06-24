@@ -1,0 +1,8 @@
+<view class="container">
+  <!-- 临时预定界面 -->
+  <image class="book_temp_interface1" src="../../../../images/123.jpg" mode="widthFix"></image>
+  <image class="book_temp_interface" src="../../../../images/1234.png" mode="widthFix"></image>
+
+  <button class="finish" type="primary" >提交</button>
+  <view class="temp"></view>
+</view>

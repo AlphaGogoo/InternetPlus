@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aboutMe/aboutMe",
+    "pages/aboutMe/myinfo/myinfo",
+    "pages/test/test",
+    "pages/index/scripts/scripts",
+    "pages/index/scripts/bookscript/bookscript"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "大梦三生之朱家花园",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "cloud": true,
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "/images/tabBars/tabbar_icon_index.png",
+        "selectedIconPath": "/images/tabBars/tabbar_selected_icon_index.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "/images/tabBars/tabbar_icon_me.png",
+        "selectedIconPath": "/images/tabBars/tabbar_selected_icon_me.png",
+        "pagePath": "pages/aboutMe/aboutMe"
+      }
+    ]
+  }
+}

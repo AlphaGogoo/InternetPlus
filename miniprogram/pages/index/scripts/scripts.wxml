@@ -1,0 +1,48 @@
+<!--miniprogram/pages/index/scripts/scripts.wxml-->
+<!-- <block class="script" wx:for="{{data}}" wx:key="key">
+  <view class="sc">
+    <image class="sctipt_img" src="{{item.script_image}}"></image>
+    <view class="script_info">
+      <view class="synopsis">{{item.script_synopsis}}</view>
+      <view class="script_info_tag_and_number">
+        <text class="tag">{{item.script_tag}}</text>
+        <text class="people_number">{{item.script_people_played}}</text>
+      </view>
+    </view>
+  </view>
+</block> -->
+<view class="sc">
+  <view class="img">
+    <image class="sctipt_img" src="{{script_image}}" mode="widthFix"></image>
+  </view>
+  <view class="script_info">
+    <text class="synopsis">{{script_synopsis}}</text>
+    <view class="script_info_tag_and_number">
+      <text class="tag">{{script_tag}}</text>
+      <text class="people_number">{{script_people_played}}人已开局</text>
+      <text class="toBook" bindtap="tobookscript">去预约>></text>
+    </view>
+  </view>
+</view>
+
+
+
+<view class="sc">
+  <view class="img">
+    <image class="sctipt_img"
+      src="cloud://ipm-9goqo41p1b480a37.6970-ipm-9goqo41p1b480a37-1303975053/scripts-images/2.jpg" mode="widthFix">
+    </image>
+  </view>
+  <view class="script_info">
+    <text class="synopsis">滇南临安矿产富商是如何白手起家呢，没有人知道朱家花园究竟藏着朱家的什么秘密，直到朱家的小儿子无意间闯入看到了……</text>
+    <view class="script_info_tag_and_number">
+      <text class="tag">悬疑</text>
+      <text class="people_number">27人已开局</text>
+      <text class="toBook" bindtap="tobookscript">去预约>></text>
+    </view>
+  </view>
+</view>
+
+<view class="tomore">
+  敬请期待...
+</view>

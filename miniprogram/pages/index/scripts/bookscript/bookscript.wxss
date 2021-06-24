@@ -1,0 +1,13 @@
+.book_temp_interface1{
+  width: 100%;
+}
+.book_temp_interface{
+  width:100%
+}
+.container{
+  background-color: white;
+}
+.temp{
+  background-color: white;
+  height: 100rpx;
+}

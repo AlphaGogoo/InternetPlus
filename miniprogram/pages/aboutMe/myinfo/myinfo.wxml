@@ -1,0 +1,16 @@
+<!--pages/aboutMe/myinfo/myinfo.wxml-->
+<mp-cells title="">
+  <mp-cell link hover value="头像" url="">
+    <image slot="footer" src="{{useravatarUrl}}" 
+      style="margin-right:16rpx; width:50px;height:50px">
+    </image>
+  </mp-cell>
+
+  <mp-cell link hover value="昵称">
+    <text slot="footer"  >{{username}}</text>
+  </mp-cell>
+
+  <mp-cell link hover value="手机号" bindtap="togetphonenumber">
+    <text slot="footer" >{{phonenumber}}</text>
+  </mp-cell>
+</mp-cells>
